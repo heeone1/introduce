@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Heewon</title>
+    <link href="mystyle.css" type="text/css" rel="stylesheet">
+    <script src="JavaScript/myjava.js"></script>
+
+</head>
+<body onload="init1();">
+    <header></header>
+    <nav id="bar">
+        <div id = "photo">
+            <img onwheel = "wheel(event,this)" id="photo" src="media\025154371.jpg" alt="사진 없음">
+        </div>
+        <div id = "contents">
+            <h3><a href = "#about">ABOUT</a></h3>
+            <h3><a href = "#interest">INTERESTS</a></h3>
+            <h4><a href = "#chap1">BASEBALL</a></h4>
+            <h4><a href = "#chap2">MUSIC</a></h4>
+            <h4><a href = "#chap3">TRAVEL</a></h4>
+            <h4><a href = "#chap4">CODING</a></h4>
+            <h4><a href = "#chap5">PHOTO</a></h4>
+        </div>
+    </nav>
+    <section id="about">
+        <article>
+            <script src="JavaScript\date.js"></script>
+
+            <p class="name" style="font-size: 65px;"><span id="kim">KIM HEE WON</span></p>
+    
+            <table border="0px">
+                <tbody>
+                    <tr>
+                        <td>
+                            <!-- 사진에 마우스 올리면 사진 바꿔주고 마우스 떼면 원래 사진으로--> 
+                            <img src="media\B612_20221220_115614_372.jpg" width="198" height="255" alt="사진 없음" onmouseover="this.src='media/134010.png'" onmouseout="this.src='media/B612_20221220_115614_372.jpg'">
+                        </td>
+                        <td>
+                            <ul id="me">
+                                <li id="mbti" onclick="MBTI()">MBTI: ESFP</li><br>
+                                <li>학번: 20220963</li><br>
+                                <li>전공: 컴퓨터공학과</li><br>
+                                <li>전화번호: 010-6788-4948</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </section>
+    <section id="interest">
+        <a class="name" style="font-size: 65px;">INTERESTS</a>
+        <article id="chap1">
+            <a class="name">BASEBALL</a><br><br>
+            <h3 class="keyword">#KIA</h3>
+            <h3 class="keyword">#박찬호</h3>
+            <h3 class="keyword">#최형우</h3>
+            <h3 class="keyword">#나성범</h3><br><br><br>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><img src="https://tigers.co.kr/img/sub/emblem01_01.png" width="200px" height="150px" alt="사진 없음"></td>
+                        <td>
+                            <ul>
+                                <li>감독: 김종국</li><br>
+                                <li>연고지: 광주광역시</li><br>
+                                <li>홈구장: 기아 챔피언스 필드</li><br>
+                                <li>한국시리즈 통산 11회 진출, <span id="v">11회 우승</span>으로</li> 
+                                <li>챔피언 결정전 최다 우승과 무패 기록 보유</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table><br>
+            <table>
+                <caption id="player" style="text-align: left; font-size: 20px;">기아타이거즈 주요 선수</caption>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="html/박찬호.html" target="_blank">
+                                <img src="https://dimg.donga.com/wps/NEWS/IMAGE/2022/08/05/114826722.2.jpg" width="200px" height="150px"><figcaption>박찬호</figcaption>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="html/최형우.html" target="_blank">
+                                <img src="https://file2.nocutnews.co.kr/newsroom/image/2022/03/30/202203301651302052_0.jpg" width="200px" height="150px" alt="사진 없음"><figcaption>최형우</figcaption>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="html/나성범.html" target="_blank">
+                                <img src="https://t1.daumcdn.net/news/202201/20/inews24/20220120100315948renn.jpg" width="200px" height="150px" alt="사진 없음"><figcaption>나성범</figcaption>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table><br>
+            <h4><span id="direct_view">야구장을 가서 먹는 음식과 신나는 분위기가 좋아서 직관 가는 것을 좋아한다.</span></h4>
+            <img style="padding-left: 80px;" src="media\1657810690566-5.jpg" width="190px" height="250px" alt="사진 없음">&nbsp;&nbsp;&nbsp;
+            <img src="media\20220911_135153.jpg" width="190px" height="250px" alt="사진 없음">&nbsp;&nbsp;&nbsp;
+            <img src="media\20230428.jpg" width="190px" height="250px" alt="사진 없음"><br>
+            <video src="media\20221004_212432.mp4" width="380" height="250" controls>브라우저가 video태그를 지원하지 않습니다.</video>&nbsp;&nbsp;&nbsp;
+            <video src="media\20221004_213748.mp4" width="380" height="250" controls>브라우저가 video태그를 지원하지 않습니다.</video>
+        </article>
+        <article id="chap2">
+            <a class="name">MUSIC</a><br><br>
+            <h3 class="keyword">#힙합</h3>
+            <h3 class="keyword">#비오</h3>
+            <h3 class="keyword">#창모</h3>
+            <h3 class="keyword">#김승민</h3><br><br>
+            <ul>
+                <li>♬<a href="https://www.youtube.com/watch?v=BRtDS6NDLJw" target="_blank"> 리무진 (Feat. MINO) - BE'O</a></li>
+                <li>♬<a href="https://www.youtube.com/watch?v=K0VzPBVdiZU" target="_blank"> 네가 없는 밤 (Feat. ASH ISLAND)- BE'O</a></li>
+                <li>♬<a href="https://www.youtube.com/watch?v=aIV9V8AZS3M" target="_blank"> 빌었어 - 창모 (CHANGMO) </a></li>
+                <li>♬<a href="https://www.youtube.com/watch?v=0vlMcNJ2DwE" target="_blank"> 하나,둘 (Feat. 펀치) - 김승민</a></li>
+                <li>♬<a href="https://www.youtube.com/watch?v=I3s8MPlu9KE" target="_blank"> 거짓말 (Feat. BIG Naughty) - 김승민</a></li>
+            </ul>
+        </article>
+        <article id="chap3">
+            <a class="name">TRAVEL</a><br><br>
+            <h3 class="keyword">#유럽</h3>
+            <h3 class="keyword">#태국</h3><br><br><br>
+            <img src="media\20130801_212653.min.jpg" width="192px" height="260px" alt="사진 없음">
+            <img src="media\20130801_114735.min.jpg" width="192px" height="260px" alt="사진 없음">
+            <img src="media\20150804_154344.jpg" width="192px" height="260px" alt="사진 없음">
+            <img src="media\20130804_120458.min.jpg" width="192px" height="260px" alt="사진 없음">
+            <br>
+            <img src="media\IMG_20230214_185137_599.jpg" width="192px" height="260px" alt="사진 없음">
+            <img src="media\IMG_20230214_185137_771.jpg" width="192px" height="260px" alt="사진 없음">
+            <img src="media\IMG_20230214_185137_831.jpg" width="192px" height="260px" alt="사진 없음">
+            <img src="media\IMG_20230214_185137_698.jpg" width="192px" height="260px" alt="사진 없음">
+        </article>
+        <article id="chap4">
+            <a class="name">CODING</a><br><br>
+            <h3 class="keyword" title>#Python</h3>
+            <h3 class="keyword">#C언어</h3>
+            <h3 class="keyword">#HTML</h3>
+            <h3 class="keyword">#CSS</h3><br><br><br>
+            <table>
+                <thead>
+                    <tr style="text-align:center;">
+                        <th>파이썬</th>
+                        <th>C언어</th>
+                        <th>HTML&CSS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label title="1학년 1학기, 2학년 1학기에 공부"><img src="https://www.pngmart.com/files/7/Python-PNG-File.png" width="150px" height="150px" alt="사진 없음"><br>
+                            <progress value="8" max="10"></progress></label>
+                        </td>
+                        <td>
+                            <label title="1학년 2학기, 2학년 1학기에 공부"><img src="https://images.velog.io/images/qlwb7187/post/06775e7a-ef06-4330-965a-ce0ab9a6b3df/C%EC%96%B8%EC%96%B4.png" width="150px" height="150px" alt="사진 없음"><br>
+                            <progress value="8" max="10"></progress></label>
+                        </td>
+                        <td>
+                            <label title="2학년 1학기에 공부"><img src="https://velog.velcdn.com/images/0seo8/post/11b3d82d-ffc0-4bb6-a2c8-fd3a2f55d661/image.png" width="150px" height="150px" alt="사진 없음"><br>
+                            <progress value="5" max="10"></progress></label>
+                        </td>
+                    </tr><br>
+                </tbody>
+            </table>
+        </article>
+        <article id="chap5">
+            <a class="name">PHOTO</a><br><br>
+            <h3 class="keyword">#구름</h3>
+            <h3 class="keyword">#풍경</h3><br><br><br>
+            <img style="padding-left: 50px;" src="media\20210822_125322.jpg" width="189px" height="252px" alt="사진 없음">
+            <img src="media\20210713_080235.jpg" width="189px" height="252px" alt="사진 없음">
+            <img src="media\1617377729331-23.jpg" width="189px" height="252px" alt="사진 없음">
+            <img src="media\20200405_181051.jpg" width="252px" height="252px" alt="사진 없음">
+            <br>
+            <img src="media\1677241067879.jpg" width="180px" height="320px" alt="사진 없음">
+            <img src="media\20220804_231831.jpg" width="180px" height="320px" alt="사진 없음">
+            <img src="media\20220825_191254.jpg" width="180px" height="320px" alt="사진 없음">
+            <img src="media\20220802_203536.jpg" width="180px" height="320px" alt="사진 없음">
+            <img src="media\20220917_200437.jpg" width="180px" height="320px" alt="사진 없음">
+        </article>
+    </section>
+</body>
+</html>

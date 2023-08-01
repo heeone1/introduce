@@ -1,0 +1,113 @@
+/*mystyle.css*/
+
+#photo {
+    width: 160px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 75px;
+    margin-top: 20px;
+    margin-left: 9px;
+}
+
+#bar {
+    position: fixed;
+    display: block;
+    background-color: #3a4c75;
+    width: 200px;
+    height: 100%;
+}
+
+#contents {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#contents a:hover{text-shadow: 3px 3px 3px black;}
+
+#bar a:link{color: white;}
+
+#bar a:visited{color: white;}
+
+#bar a{text-decoration: none;}
+
+h3{margin-bottom: 35px;}
+
+body {
+    margin: 0px;
+    background-color: ghostwhite;
+}
+
+section{margin-left: 260px;}
+
+.keyword {
+    display: inline;
+    margin-left: 25px;
+    background: #3a4c75;
+    width: 65px;
+    padding: 15px;
+    border-radius: 50px;
+    border-width: 2px; 
+    border-style: solid;
+    border-color: #2B3856;
+    text-align: center;
+    color: ghostwhite;
+    box-shadow: 3px 3px 5px #3a4c75;
+    font-size: 17px;
+}
+
+ul{
+    list-style-type: none;
+    margin-top:0px;
+    font-size: 23px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+#chap1 ul{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+article {
+    height: 100%;
+    padding-top: 8%;
+    padding-bottom: 15%;
+}
+
+.name {
+    font-size: 55px;
+    font-weight: 1000;
+}
+
+#chap4 td{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+#chap2 a:link{color: black;}
+
+#chap2 a:visited{color: black;}
+
+#chap2 li>a:hover{color: #07c0cf;}
+
+#chap2 a{text-decoration: none;}
+
+#chap2 li{padding-bottom: 20px;}
+
+#chap3 img {padding: 5px;}
+
+#chap5 img {padding: 5px;}
+
+figcaption{text-align: center;}
+
+#chap1 td{padding: 15px;}
+
+#chap1 td>a{text-decoration: none;}
+
+#chap1 td>a:link{color: black;}
+
+#chap1 td>a:visited{color: black;}
+
+#chap1 td>a:hover{color: #07c0cf;}
